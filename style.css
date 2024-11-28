@@ -13,6 +13,7 @@ html, body{
     width: 100%;
     background-color: transparent;
     backdrop-filter: none;
+    -webkit-backdrop-filter: none;
     top: 0;
     z-index: 1;
 }
@@ -92,4 +93,5 @@ h1{
     width:100%;
     height:100%;
     backdrop-filter: brightness(50%);
+    -webkit-backdrop-filter: brightness(50%);
 }
