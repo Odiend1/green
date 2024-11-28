@@ -10,14 +10,6 @@ function resizeTitleDiv(){
     titleDiv.style.marginTop = navBar.clientHeight + "px";
 }
 
-function resizeTitleDivFull(){
-    titleDiv.style.height = window.innerHeight + "px";
-    titleDiv.style.marginTop = 0;
-}
-
-resizeTitleDivFull();
-window.addEventListener("resize", resizeTitleDivFull);
-
 var lightNavLinkColor = true;
 addEventListener("scroll", function(){
     if(window.scrollY > titleDiv.clientHeight-30 && lightNavLinkColor){
@@ -37,3 +29,12 @@ addEventListener("scroll", function(){
         navBar.style.backdropFilter = "none";
     }
 })
+
+var backgroundVideo = document.getElementById("background-video");
+var slideshowVideos = ["sandwich", "salad", "pizza", "pasta"];
+var slideshowIndex = 0;
+setInterval(function(){
+    backgroundVideo.src = "./assets/videos/title-slideshow/gp-" + slideshowVideos[slideshowIndex] + ".mp4";
+    slideshowIndex++;
+    if(slideshowIndex > 3) slideshowIndex = 0;
+}, 5500)
