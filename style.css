@@ -20,8 +20,9 @@ html, body{
 
 .nav-link{
     padding-right: 50px;
-    color: white;
+    color: black;
     font-weight: bold;
+    text-decoration: none;
 }
 
 /* #nav-link-container{
@@ -63,11 +64,33 @@ h1{
 
 #title-div{
     width: 100%;
-    margin-top: 0;
+    padding-top: 10vh;
     height: 100vh;
     /* background-image: url(./assets/images/veggie-pizza.png);
     background-size: cover; */
     overflow: hidden;
+    text-align: center;
+    background-color: #fff;
+}
+
+#title{
+    width: 50%;
+}
+
+#subtitle{
+    font-size: 1.25vw;
+}
+
+#order-button{
+    width: 20%;
+}
+
+#table-img{
+    width: 75%;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 #background-video {
@@ -80,12 +103,24 @@ h1{
     z-index: -1;
 }
 
-#title{
-    color: white;
+#main-title{
+    color: black;
     font-size: 10vw;
     vertical-align: middle;
     /* padding-top: 20vh; */
-    padding-top: 35vh;
+    margin: 0;
+}
+
+#main-subtitle{
+    color: black; 
+    font-size: 5vw;
+    margin-top: 0;
+    margin: 0;
+}
+
+#top-subtitle{
+    color: black;
+    margin: 0;
 }
 
 #inner-title-div{
