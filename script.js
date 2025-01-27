@@ -34,12 +34,12 @@
 
 try{
     var backgroundVideo = document.getElementById("background-video");
-    var slideshowVideos = ["sandwich", "salad", "pizza", "pasta"];
+    var slideshowVideos = ["sandwich", "salad", "pasta"];
     var slideshowIndex = 0;
     setInterval(function(){
         backgroundVideo.src = "./assets/videos/title-slideshow/gp-" + slideshowVideos[slideshowIndex] + ".mp4";
         slideshowIndex++;
-        if(slideshowIndex > 3) slideshowIndex = 0;
+        if(slideshowIndex > 2) slideshowIndex = 0;
     }, 5500)
     }
 catch(e){}
