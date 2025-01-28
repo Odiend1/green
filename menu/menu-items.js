@@ -325,7 +325,7 @@ const menuItems = {
         },
         {
           "name": "Peanut Butter and Jelly Sandwich",
-          "price": 4.99,
+          "price": 4.49,
           "description": "A timeless favorite with peanut butter and jelly on soft bread.",
           "vegan": true
         },
