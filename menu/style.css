@@ -65,12 +65,12 @@ html, body {
 }
 
 .menu-container{
-    display: block;
-    height: auto;
+    padding-top: 50%;
     width: 100%;
 }
 
 .category-container{
+    padding-top: 60px;
     width: 100%;
     text-align: center;
 }

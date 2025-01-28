@@ -16,3 +16,7 @@ categoryRightScrollButton.onclick = function(){
         behavior: "smooth"
       });
 }
+
+var menuItems = {
+  categories: ["Brunch", "Appetizers", "Americas", "Europe", "Middle East"]
+}

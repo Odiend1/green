@@ -21,7 +21,7 @@ html, body{
     height: 40px;
     padding-top: 20px;
     text-align: right;
-    position: fixed;
+    position: absolute;
     width: 100%;
     background-color: transparent;
     backdrop-filter: none;
