@@ -4,27 +4,117 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title></title>
+    <link href="/style.css" rel="stylesheet" type="text/css" />
     <link href="style.css" rel="stylesheet" type="text/css" />
     <link href='https://fonts.googleapis.com/css?family=EB Garamond' rel='stylesheet'>
   </head>
   <body>
     <div id="nav-bar">
       <div id="nav-link-container">
-          <a class="nav-link" href="/about/">About Us</a>&nbsp;
-          <a class="nav-link" href="/menu/">Menu</a>&nbsp;
-          <a class="nav-link" href="/locations/">Locations</a>&nbsp;
-          <a class="nav-link" href="/contact/">Contact</a>&nbsp;
+          <a class="nav-link" href="./about/">About</a>&nbsp;
+          <a class="nav-link" href="./menu/">Menu</a>&nbsp;
+          <a class="nav-link" href="./locations/">Locations</a>&nbsp;
+          <a class="nav-link" href="./contact/">Contact</a>&nbsp;
       </div>
-  </div>
-  <footer>
+    <div id="sub-nav-bar"></div>
+    <div id="menu-category-div">
+      <div id="menu-category-div-foreground"></div>
+      <button class="category-scroll-button" id="category-scroll-left">❮</button>
+      <button class="category-scroll-button" id="category-scroll-right">❯</button>
+      <a class="menu-category" id="category-appetizers" href="#appetizers">APPETIZERS</a>
+      <a class="menu-category" id="category-brunch" href="#brunch">BRUNCH</a>
+      <a class="menu-category" id="category-mains" href="#americas">AMERICAS</a>
+      <a class="menu-category" id="category-mains" href="#europe">EUROPE</a>
+      <a class="menu-category" id="category-mains" href="#middle-east">MIDDLE EAST</a>
+      <a class="menu-category" id="category-mains" href="#africa">AFRICA</a>
+      <a class="menu-category" id="category-mains" href="#asia">ASIA</a>
+      <a class="menu-category" id="category-sides" href="#sides">SIDES</a>
+      <a class="menu-category" id="category-kids" href="kids">KIDS</a>
+      <a class="menu-category" id="category-desserts" href="desserts">DESSERTS</a>
+      <a class="menu-category" id="category-drinks" hred="drinks">DRINKS</a>
+    </div>
+    <br><br>
+    <div id="menu-container">
+      <div id="favorites" class="category-container"></div>
+      <div id="appetizers" class="category-container">
+        <h2>Appetizers</h2>
+        <div class="menu-item">
+          <img src="/assets/images/veggie-pizza.png" class="menu-item-img">
+          <h3 class="menu-item-title">Guacamole</h3>
+          <p class="menu-item-desc">$8.00</p>
+          <button class="menu-item-add">ADD</button>
+        </div>
+        <div class="menu-item">
+          <img src="/assets/images/veggie-pizza.png" class="menu-item-img">
+          <h3 class="menu-item-title">Guacamole</h3>
+          <p class="menu-item-desc">$8.00</p>
+          <button class="menu-item-add">ADD</button>
+        </div>
+        <div class="menu-item">
+          <img src="/assets/images/veggie-pizza.png" class="menu-item-img">
+          <h3 class="menu-item-title">Guacamole</h3>
+          <p class="menu-item-desc">$8.00</p>
+          <button class="menu-item-add">ADD</button>
+        </div>
+        <div class="menu-item">
+          <img src="/assets/images/veggie-pizza.png" class="menu-item-img">
+          <h3 class="menu-item-title">Guacamole</h3>
+          <p class="menu-item-desc">$8.00</p>
+          <button class="menu-item-add">ADD</button>
+        </div>
+        <div class="menu-item">
+          <img src="/assets/images/veggie-pizza.png" class="menu-item-img">
+          <h3 class="menu-item-title">Guacamole</h3>
+          <p class="menu-item-desc">$8.00</p>
+          <button class="menu-item-add">ADD</button>
+        </div>
+        <div class="menu-item">
+          <img src="/assets/images/veggie-pizza.png" class="menu-item-img">
+          <h3 class="menu-item-title">Guacamole</h3>
+          <p class="menu-item-desc">$8.00</p>
+          <button class="menu-item-add">ADD</button>
+        </div>
+        <div class="menu-item">
+          <img src="/assets/images/veggie-pizza.png" class="menu-item-img">
+          <h3 class="menu-item-title">Guacamole</h3>
+          <p class="menu-item-desc">$8.00</p>
+          <button class="menu-item-add">ADD</button>
+        </div>
+        <div class="menu-item">
+          <img src="/assets/images/veggie-pizza.png" class="menu-item-img">
+          <h3 class="menu-item-title">Guacamole</h3>
+          <p class="menu-item-desc">$8.00</p>
+          <button class="menu-item-add">ADD</button>
+        </div>
+        <div class="menu-item">
+          <img src="/assets/images/veggie-pizza.png" class="menu-item-img">
+          <h3 class="menu-item-title">Guacamole</h3>
+          <p class="menu-item-desc">$8.00</p>
+          <button class="menu-item-add">ADD</button>
+        </div>
+        <div class="menu-item">
+          <img src="/assets/images/veggie-pizza.png" class="menu-item-img">
+          <h3 class="menu-item-title">Guacamole</h3>
+          <p class="menu-item-desc">$8.00</p>
+          <button class="menu-item-add">ADD</button>
+        </div>
+        <div class="menu-item">
+          <img src="/assets/images/veggie-pizza.png" class="menu-item-img">
+          <h3 class="menu-item-title">Guacamole</h3>
+          <p class="menu-item-desc">$8.00</p>
+          <button class="menu-item-add">ADD</button>
+        </div>
+      </div>
+    </div>
+  <!-- <footer>
     <div class="footer-section">
         <h3>NAVIGATION</h3>
         <a href="/about/" class="footer-link">ABOUT US</a><br><br>
         <a href="/menu/" class="footer-link">MENU</a><br><br>
         <a href="/locations/" class="footer-link">LOCATIONS</a><br><br>
         <a href="/contact/" class="footer-link">CONTACT</a>
-        <!-- <a href="https://yelp.com" class="footer-link">Reviews</a> --> 
-    </div>
-</footer>
+      </div>
+</footer> -->
+<script src="script.js"></script>
   </body>
 </html>
