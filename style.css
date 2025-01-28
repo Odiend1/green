@@ -4,6 +4,18 @@ html, body{
     padding: 0;
 }
 
+@keyframes fade-in-down{
+    from{
+        opacity: 0;
+        transform: translateY(-25px) scale(0.9);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0px) scale(1);
+    }
+}
+
 #nav-bar{
     border-bottom: 1px transparent solid;
     height: 40px;
@@ -88,6 +100,8 @@ h1{
 
 #title{
     width: 50%;
+    animation-name: fade-in-down;
+    animation-duration: 1s;
 }
 
 #title-img{
