@@ -175,3 +175,59 @@ h1{
     backdrop-filter: brightness(50%); 
     padding-top: 10vh;
 }
+.footer-section {
+    display: inline-block;
+    margin: 30px;
+}
+/*.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f056;    
+    width: 100%;
+    position : relative;
+}
+.primary-footer {
+    padding-bottom: 32px;
+    padding-left: 32px;
+    padding-right: 32px;
+    align-self: stretch;
+    gap: 54px;
+    padding: 150px 0;
+}
+content-wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 0;
+    align-self: stretch;
+    display: flex;
+}
+.footer-links-container {
+    flex-direction: row;
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    flex: 1 1 0;
+    flex-wrap: wrap;
+}
+.primary-footer-links-container {
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: stretch;
+}
+.primary-links-wrapper {
+    gap: 8px;
+    padding: 0;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+} */
