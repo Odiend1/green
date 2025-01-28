@@ -85,11 +85,12 @@ html, body {
     border-radius: 20px;
     background-color: rgb(239, 255, 222);
     margin: 10px;
+    position: relative;
 }
 
 .menu-item-title{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.5em;
+    font-size: 1.25em;
     text-align: left;
     padding: 20px 20px 0px;
     margin: 0;
@@ -103,10 +104,14 @@ html, body {
 
 .menu-item-img{
     height: 60%;
+    margin-left: 50%;
+    transform: translateX(-50%);
 }
 
 .menu-item-add{
-    margin: 0px 20px 0px 220px;
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
     height: 50px;
     width: 70px;
     border-radius: 20px;
