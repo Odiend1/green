@@ -17,6 +17,16 @@ categoryRightScrollButton.onclick = function(){
       });
 }
 
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+
+      document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+      });
+  });
+});
+
 import { menuItems, getItemId } from "./menu-items.js";
 
 for(let i = 0; i < menuItems.categories.length; i++){
