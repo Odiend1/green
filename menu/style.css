@@ -119,3 +119,7 @@ html, body {
     font-weight: bold;
     background-color: #aad374;
 }
+
+.menu-item-add:hover{
+    background-color: #a0c96f;
+}
