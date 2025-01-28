@@ -1,5 +1,6 @@
-export const menuItems = {
+const menuItems = {
     categories: ["Appetizers", "Brunch", "Americas", "Europe", "Middle East", "Africa", "Asia", "Sides", "Kids", "Desserts", "Drinks"],
+    itemLookup: {},
     items: {
       "Appetizers": [
         {
@@ -337,3 +338,18 @@ export const menuItems = {
       ]
     }
   };
+
+  function getItemId(itemName){
+    return itemName.toLowerCase().replaceAll(" ", "-").substring(0, 4) + itemName.toLowerCase().replaceAll(" ", "-").substring(Math.floor(itemName.length / 2), Math.floor(itemName.length / 2) + 1) + itemName.toLowerCase().replaceAll(" ", "-").substring(Math.floor(itemName.length * 3 / 4), Math.floor(itemName.length * 3 / 4) + 1) + itemName.toLowerCase().replaceAll(" ", "-").substring(itemName.length-1, itemName.length);
+  }
+
+  for(let i = 0; i < menuItems.categories.length; i++){
+    var category = menuItems.items[menuItems.categories[i]];
+    category.forEach((item) => {
+        item.category = menuItems.categories[i];
+        item.id = getItemId(item.name);
+        menuItems.itemLookup[item.id] = item;
+    })
+  }
+
+  export { menuItems, getItemId };

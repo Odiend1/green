@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>The Greener Plate | Menu</title>
+    <link href="/style.css" rel="stylesheet" type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href='https://fonts.googleapis.com/css?family=EB Garamond' rel='stylesheet'>
+  </head>
+  <body>
+    <div id="nav-bar">
+      <div id="nav-link-container">
+          <a class="nav-link" href="./about/">About</a>&nbsp;
+          <a class="nav-link" href="./menu/">Menu</a>&nbsp;
+          <a class="nav-link" href="./locations/">Locations</a>&nbsp;
+          <a class="nav-link" href="./contact/">Contact</a>&nbsp;
+      </div>
+    <div id="sub-nav-bar"></div>
+    </div>
+    <div id="left-item-div">
+        <a href="../" id="back-to-menu">❮ &nbsp; Back to Menu</a>
+        <img id="item-img" onerror="this.src='/assets/images/item-not-found.png'">
+    </div>
+    <div id="right-item-div">
+        <h2 id="item-name">Item</h2>
+        <p id="item-price">$0.00</p>
+        <p id="item-desc">This is a great menu item.</p>
+        <br><br><br><br>
+        <button id="special-instructions-button" onclick="document.getElementById('special-instructions').hidden = !document.getElementById('special-instructions').hidden;">Add Special Instructions <b style="float: right;">+&nbsp;</b></button><br>
+        <textarea id="special-instructions" placeholder="Type special instructions here..." hidden></textarea>
+        <br><br>
+        <div id="order-bar">
+        <button id="decrease-quantity" class="quantity-button" onclick="if(document.getElementById('quantity').value > 1) document.getElementById('quantity').value -= 1;">-</button>
+        <input id="quantity" value="1" size="2" type="number" min="1" max="99" onchange="if (this.value < 1) { this.value = 1; } else if (this.value > 99) { this.value = 99; }">
+        <button id="increase-quantity" class="quantity-button" onclick="if(document.getElementById('quantity').value < 99) document.getElementById('quantity').value = parseInt(document.getElementById('quantity').value) + 1;">+</button>
+        <button id="add-to-cart">ADD TO CART</button>
+        </div>
+    </div>
+<script type="module" src="../menu-items.js"></script>
+<script type="module" src="script.js"></script>
+  </body>
+</html>
