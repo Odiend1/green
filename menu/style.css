@@ -17,6 +17,7 @@ html, body {
     white-space: nowrap;
     scrollbar-width: none;
     background-color: rgb(239, 255, 222);
+    margin-top: 20px;
 }
 
 .menu-category{
