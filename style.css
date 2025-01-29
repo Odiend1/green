@@ -17,7 +17,7 @@ html, body{
 }
 
 #nav-bar{
-    border-bottom: 1px transparent solid;
+    border-bottom: 8px green solid;
     height: 40px;
     padding-top: 20px;
     text-align: right;
@@ -173,6 +173,7 @@ h1{
     width: 100%;
     height: 82%;
     backdrop-filter: brightness(50%); 
+    -webkit-backdrop-filter: brightness(50%);
     padding-top: 10vh;
 }
 
