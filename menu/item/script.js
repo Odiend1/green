@@ -12,4 +12,4 @@ var itemImg = document.getElementById("item-img");
 itemTitle.innerHTML = item.name;
 itemDesc.innerHTML = item.description;
 itemPrice.innerHTML = "$" + item.price;
-itemImg.src = `/assets/images/menu-items/${item.name.toLowerCase().replaceAll(" ", "-")}.png`;
+itemImg.src = `../../assets/images/menu-items/${item.name.toLowerCase().replaceAll(" ", "-")}.png`;
