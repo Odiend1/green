@@ -92,7 +92,7 @@ input[type=number] {
     padding: 12px 3% 10px 0px;
     border: 1px solid rgb(196, 196, 196);
     text-align: right;
-    background-color: white;
+    background-color: #fff;
 }
 
 #special-instructions-button{
