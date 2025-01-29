@@ -104,6 +104,8 @@ html, body {
 
 .menu-item-img{
     height: 60%;
+    min-width: 100%;
+    object-fit: cover;
     margin-left: 50%;
     transform: translateX(-50%);
 }
