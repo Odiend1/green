@@ -19,26 +19,14 @@ categoryRightScrollButton.onclick = function(){
 
 var menuCategoryAnchors = document.getElementsByClassName("menu-category");
 var categoryTitles = document.getElementsByClassName("category-title");
-
-Array.from(menuCategoryAnchors).forEach(anchor => {
-  anchor.addEventListener('click', function (e) {
-      e.preventDefault();
-
-      document.querySelector(this.getAttribute('href')).scrollIntoView({
-          behavior: 'smooth'
-      });
-  });
-});
-
-var menuContainer = document.getElementById("menu-container");
-document.addEventListener("wheel", function(event){
-  console.log("E")
+function selectCategoryEffects(){
   for(let i = 0; i < categoryTitles.length; i++){
     if(categoryTitles[i].getBoundingClientRect().top - 200 < 0){
       menuCategoryAnchors[i].style.color = "#003e03";
       menuCategoryAnchors[i].style.fontWeight = "bold";
       menuCategoryAnchors[i].style.textDecoration = "underline";
       menuCategoryAnchors[i].style.textUnderlineOffset = "5px";
+      menuCategoryAnchors[i].scrollIntoView({ behavior: "smooth", block: "center", inline: "center" });
       for(let j = 0; j < categoryTitles.length; j++){
         if(j != i) {
           menuCategoryAnchors[j].style.color = "#000";
@@ -48,6 +36,23 @@ document.addEventListener("wheel", function(event){
       }
     }
   };
+}
+
+Array.from(menuCategoryAnchors).forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+      e.preventDefault();
+
+      document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+      });
+      setTimeout(selectCategoryEffects, 800);
+  })
+});
+
+var menuContainer = document.getElementById("menu-container");
+
+document.addEventListener("wheel", function(event){
+  selectCategoryEffects();
 });
 
 import { menuItems, getItemId } from "./menu-items.js";
