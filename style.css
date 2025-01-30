@@ -67,6 +67,41 @@ html, body{
     font-size: 1em;
 }
 
+#nav-menu{
+    position: fixed;
+    height: 100%;
+    width: 42%;
+    background-color: rgb(255, 255, 255);
+    z-index: 1;
+    top: 0;
+    right: 0;
+    padding-left: 8%;
+    margin-top: 70px;
+    border-left: 8px green solid;
+}
+
+#menu-button{
+    height: 50px;
+    width: 50px;
+    font-size: 2em;
+    border: none;
+    background-color: transparent;
+    color: green;
+    transform: translateY(-35%);
+}
+
+.nav-menu-link{
+    font-size: 1.5em;
+    padding-top: 20px;
+    display: block;
+    text-decoration: none;
+    color: green;
+}
+
+.nav-menu-link:hover{
+    color: rgb(166, 255, 0);
+}
+
 @font-face{
     font-family: Kalinga;
     src: url(fonts/kalinga.ttf)
@@ -133,6 +168,10 @@ h1{
 
 #order-button-img{
     width: 20%;
+}
+
+#order-button-img:hover{
+    filter: brightness(85%);
 }
 
 #order-button-text{

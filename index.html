@@ -33,7 +33,15 @@
             <a class="nav-link" href="./references/">References</a>&nbsp;
             <!--<a class="nav-link" href="./locations/">Locations</a>&nbsp;
             <a class="nav-link" href="./contact/">Contact</a>&nbsp;-->
+            <button id="menu-button" hidden>☰</button>
         </div>
+    </div>
+    <div id="nav-menu" hidden>
+        <a class="nav-menu-link" href="./about/">About</a><br>
+        <a class="nav-menu-link" href="./menu/">Menu</a><br>
+        <a class="nav-menu-link" href="./references/">References</a><br>
+        <!--<a class="nav-menu-link" href="./locations/">Locations</a><br>
+        <a class="nav-menu-link" href="./contact/">Contact</a><br>-->
     </div>
     <div id="title-div">
         <video id="background-video" autoplay muted loop playsinline>
@@ -46,7 +54,7 @@
             <br>
             <!--<img id="order-button" src="assets/images/order-button.png">-->
             <!--<button id="order-button"><span id="order-button-text">ORDER NOW</span></button>-->
-            <img id="order-button-img" src="assets/images/order-button.png"><br>
+            <a href="./menu/"><img id="order-button-img" src="assets/images/order-button.png"></a><br>
             <br>
         </div>
     </div>
@@ -59,6 +67,7 @@
     <div id="googleMap" style="width:100%;height:400px;"></div>
     <br><br><br><br><br><br><br><br>
     <script src="script.js"></script>
+    <script src="universal.js"></script>
     <!-- <script>
         async function locationMap() {
             const { AdvancedMarkerElement } = await google.maps.importLibrary("marker");

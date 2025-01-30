@@ -52,12 +52,6 @@ const menuItems = {
           price: 8.99,
           description: "Chia seeds soaked overnight in almond milk (or any plant milk) with a touch of maple syrup and vanilla. Serve topped with fresh berries, nuts, and a drizzle of nut butter.",
           vegan: true
-        },
-        {
-          name: "Açaí Bowl",
-          price: 9.99,
-          description: "Frozen açaí puree blended with frozen berries (like banana, strawberries, or blueberries) and plant-based milk. Top with granola, sliced bananas, coconut flakes, chia seeds, and a drizzle of honey or agave.",
-          vegan: true
         }
       ],
       "Americas": [
