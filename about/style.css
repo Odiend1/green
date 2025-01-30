@@ -1,97 +1,52 @@
-html, body{
+
+.image-container{
+    width: 40%;
     height: 100%;
-    margin: 0;
-    padding: 0;
 }
 
-#nav-bar{
-    border-bottom: 1px transparent solid;
-    height: 50px;
-    padding-top: 25px;
-    text-align: right;
-    position: fixed;
-    width: 100%;
-    background-color: transparent;
-    backdrop-filter: none;
-    -webkit-backdrop-filter: none;
-    top: 0;
-    z-index: 1;
-}
-
-.nav-link{
-    padding-right: 50px;
-    color: rgb(0, 0, 0);
-    font-weight: bold;
-}
-
-/* #nav-link-container{
-    backdrop-filter: blur(5px);
-    background-color: rgba(255, 255, 255, 0.2);
-    float:right;
-    padding-left: 50px;
-} */
-
-@font-face{
-    font-family: Kalinga;
-    src: url(fonts/kalinga.ttf)
-}
-
-h1, h2, h3, h4, h5, h6, p, a{
-    /* font-family: Calibri, sans-serif; */
-    /* font-family: "Californian FB", AppleMyungjo; */
-    /* font-family: 'Times New Roman', Times, serif; */
-    font-family: Kalinga;
-}
-
-h1, h2, h3, h4, h5, h6{
-    text-align: center;
-}
-
-h1{
-    font-family: 'EB Garamond';
-    font-size: 108px;
-    font-weight: lighter;
-    padding: 0;
-    margin: 0;
-}
-
-#desc{
-    padding-bottom: 100px;
-    padding-left: 200px;
-    padding-right: 200px;
-}
-
-#title-div{
-    width: 100%;
-    margin-top: 0;
-    height: 100vh;
-    /* background-image: url(./assets/images/veggie-pizza.png);
-    background-size: cover; */
-    overflow: hidden;
-}
-
-#background-video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
+.text-container{
+    width: 40%;
     height: 100%;
-    object-fit: cover;
-    z-index: -1;
-}
-
-#title{
-    color: rgb(0, 0, 0);
-    font-size: 10vw;
     vertical-align: middle;
-    /* padding-top: 20vh; */
-    padding-top: 35vh;
+    padding: 5%;
+    float: right
 }
 
-#inner-title-div{
-    position: relative;
-    width:100%;
-    height:100%;
-    backdrop-filter: brightness(50%);
-    -webkit-backdrop-filter: brightness(50%);
+.left-container{
+    float: left;
+}
+
+.section{
+    position: fixed;
+}
+
+.subsection{
+    opacity: 0;
+}
+
+.img-half-center{
+    height: 90%;
+    width: 90%;
+    margin: 200px 25% 25% 25%;
+}
+
+.circle{
+    border-radius: 50%;
+}
+
+.about-text{
+    margin-top: 40%;
+}
+
+.white-text{
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+#scroll-overlay{
+    position: absolute;
+    height: 500%;
+    width: 100%;
+    overflow-y: scroll;
+    z-index: -1;
 }
