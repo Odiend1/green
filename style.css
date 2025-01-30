@@ -170,6 +170,10 @@ h1{
     width: 20%;
 }
 
+#order-button-img:hover{
+    filter: brightness(85%);
+}
+
 #order-button-text{
     color: white;
     font-weight: bold;
