@@ -80,7 +80,7 @@ const menuItems = {
           vegan: true
         },
         {
-          name: "Roasted Poblano Empanadas",
+          name: "Cheese Poblano Empanadas",
           price: 9.99,
           description: "A fried crunchy shell enclosed in a delicious filling of poblano, cilantro, and melty vegan cheese.",
           vegan: true
