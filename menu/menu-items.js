@@ -178,7 +178,7 @@ const menuItems = {
           vegan: true
         },
         {
-          name: "Tofu Tikki Masala",
+          name: "Tofu Tikka Masala",
           price: 12.99,
           description: "Traditional masala combined with the soft and silky texture of tofu, served with basmati rice and a sprinkle of parsley.",
           vegan: true
