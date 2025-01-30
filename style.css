@@ -19,7 +19,7 @@ html, body{
 #nav-bar{
     border-bottom: 8px green solid;
     height: 70px;
-    position: absolute;
+    position: fixed;
     width: 100%;
     background-color: transparent;
     backdrop-filter: none;
