@@ -120,7 +120,7 @@ const menuItems = {
       ],
       "Middle East": [
         {
-          name: "Sherbet Adas",
+          name: "Shorbet Adas",
           price: 9.99,
           description: "A cozy mixture of boiled potatoes and carrots, blended to the perfect texture and served with a squeeze of lemons, pita chips, and garnished onions or parsley of choice.",
           vegan: true
