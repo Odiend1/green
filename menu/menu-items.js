@@ -158,9 +158,9 @@ const menuItems = {
           vegan: true
         },
         {
-          name: "Ugali with Soup",
+          name: "Ugali with Egusi Soup",
           price: 9.99,
-          description: "Soft and chewy Ugali (corn maize bread) sprinkled with herbs and served with stir-fried vegetables and/or soup of choice.",
+          description: "Soft and chewy Ugali (corn maize bread) sprinkled with herbs and served with Egusi Soup, a mixture of red bell pepper, tomatoes, red pepper,vegetable stock, ground egusi and tofu or mushrooms.",
           vegan: true
         }
       ],
@@ -178,13 +178,13 @@ const menuItems = {
           vegan: true
         },
         {
-          name: "Creamy Vegan Miso Butter Ramen",
+          name: "Creamy Miso Butter Ramen",
           price: 13.99,
           description: "Freshly made ramen noodles with a vegan miso broth made of soy milk, vegan butter, sesame seeds, bamboo shoots, and ginger.",
           vegan: true
         },
         {
-          name: "Vegan Kimchi Jjigae",
+          name: "Kimchi Jjigae",
           price: 11.99,
           description: "A savory stew with vegan kimchi, shiitake mushrooms, noodles, and silken tofu in a vegetable and kimchi stock broth.",
           vegan: true
