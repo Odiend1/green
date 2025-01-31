@@ -204,9 +204,9 @@ const menuItems = {
           vegan: true
         },
         {
-          name: "Rice (White or Brown)",
+          name: "Rice options",
           price: 3.99,
-          description: "Cooked white or brown rice with water and salt.",
+          description: "Choice of cooked white or brown rice.",
           vegan: true
         },
         {
