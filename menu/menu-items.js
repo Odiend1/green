@@ -42,7 +42,7 @@ const menuItems = {
           vegan: true
         },
         {
-          name: "Acai bowl",
+          name: "Acai Bowl",
           price: 10.99,
           description: "A blended mix of frozen fruit (banana, berries, mango), plant-based milk, and a handful of spinach or kale. Top with granola, chia seeds, coconut flakes, and fresh fruit.",
           vegan: true
