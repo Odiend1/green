@@ -297,6 +297,7 @@ h1{
     font-size: 0.9em;
     font-weight: bold;
     background-color: #aad374;
+    color: black;
 }
 
 .menu-item-add:hover{
@@ -310,10 +311,12 @@ h1{
 
 #about-title{
     color: #00bf40;
-    font-size: 4.5em;
+    margin-top: 100px;
     font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-weight: bolder;
     text-shadow: 3px 3px 0 #01572e; 
+    font-size: 4.5em;
+    margin-top: 100px;
 }
 
 #learn-more-button{
@@ -321,11 +324,11 @@ h1{
     height: 60px;
     margin-top: 30px;
     font-size: 25px;
-    color:#01572e; 
     font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-size: bolder;
     background-color: #69bf5c;
     border-radius: 12px;
+    color: black;
 }
 footer{
 background-color: #049e53;
