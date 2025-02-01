@@ -86,6 +86,7 @@ input[type=number] {
     margin-left: 20px;
     background-color: #aad374;
     border-radius: 10px;
+    color: black;
 }
 
 #add-to-cart:hover{
