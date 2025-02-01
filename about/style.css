@@ -1,22 +1,29 @@
 
 html, body{
     /*background: radial-gradient(rgb(225, 255, 225), white) no-repeat; */
-    background: border-radius(rgb(241, 246, 241), rgb(0, 0, 0)) no-repeat;
+    background: background-color(white);
     background-position: center;
   background-attachment: fixed;
 }
 
 #about-title{
     color: #00bf40;
+    font-size: 5em;
     text-align: center;
     margin-top: 100px;
     font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-weight: bolder;
     text-shadow: 3px 3px 0 #01572e; 
 }
-
+#about-id{
+    color: #000000;
+    font-size: 1.5em;
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: bolder;
+}
 p{
-    color: #000;
+    color: #000000;
     font-size: 1.2em;
 }
 
@@ -69,7 +76,7 @@ p{
     outline: 1px solid green;
     background-color: rgb(225, 255, 225);
     text-align: center;
-    font-size: 1em;
+    font-size: 1.2em;
 }
 
 
