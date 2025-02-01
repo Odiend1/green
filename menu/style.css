@@ -131,3 +131,13 @@ html, body {
 .menu-item-add:hover{
     background-color: #a0c96f;
 }
+
+#cart-button{
+    height: 50px;
+    width: 50px;
+    font-size: 2em;
+    border: none;
+    background-color: transparent;
+    color: green;
+    transform: translateY(-35%);
+}
