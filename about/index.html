@@ -2,10 +2,10 @@
 <html lang="en-US">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Greneer Plate | About</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
     <link href="../style.css" rel="stylesheet" type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
     <link href='https://fonts.googleapis.com/css?family=EB Garamond' rel='stylesheet'>
   </head>
   <body>
@@ -23,18 +23,25 @@
       </div>
   </div>
 
-  <div id="scroll-overlay"></div>
-
-  <div id="overview-section" class="section">
-    <div class="image-container left-container overview-subsection subsection"><img class="img-half-center" src="../assets/images/title.png"></div>
-    <div class="text-container overview-subsection subsection"><p class="about-text">Here at the Greener Plate, we have a specific goal in mind: sustainable cooking for all peoples and cultures. Our menu specializes in different vegan and vegetarian cuisines and dishes from all around the world, ranging from the Americas, Europe, Asia, Africa, and the Middle East. Overall, our combination of fresh vegetables, herbs, and imported spices provide unique flavors as well as dishes for everyone to enjoy, no matter where you are from. </p></div>
+  <h1 id="about-title">About Us</h1>
+  <hr style="width: 40%;">
+  <div class="main-container">
+        <img id="earth-image" class="side-image circle" src="../assets/images/earth.gif">
+        <div id="main-text-div">
+            <br><br><br>
+        <p>Here at Greener Plate, we have a specific goal in mind: sustainable cooking for all peoples and cultures. Our menu specializes in different vegan and vegetarian cuisines and dishes from all around the world, ranging from the Americas, Europe, Asia, Africa, and the Middle East. Overall, our combination of fresh vegetables, herbs, and imported spices provide different dishes and dishes for everyone to enjoy, no matter where you are from. </p>
+        <br><br>
+        <video id="farm-slideshow" muted autoplay loop playinline>
+            <source src="../assets/videos/farm-to-plate-slideshow.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        </div>
   </div>
+  <div id="farm-container">
+    <p class="half-text left-text">Here at the Greener Plate, we are focused on providing only the freshest of foods to our customers, which is why we are partnered with local farmers to ensure that we provide only the freshest vegetables and fruits that you can ever imagine. </p>
+    <p class="half-text right-text">Don't worry about not finishing your plate, because we have you covered. Here, we take all our food waste and turn it into compost, which we then send to local farmers to grow vegetables and fruit that is both sustainable and delicious. </p>
 
-  <div id="global-section" class="section">
-    <div class="image-container left-container global-subsection subsection"><img class="img-half-center circle" src="../assets/images/earth.gif"></div>
-    <div class="text-container global-subsection subsection"><p class="about-text white-text">Here at the Greener Plate, we have a specific goal in mind: sustainable cooking for all peoples and cultures. Our menu specializes in different vegan and vegetarian cuisines and dishes from all around the world, ranging from the Americas, Europe, Asia, Africa, and the Middle East. Overall, our combination of fresh vegetables, herbs, and imported spices provide unique flavors as well as dishes for everyone to enjoy, no matter where you are from. </p></div>
   </div>
-
   <script src="script.js"></script>
   <script src="../universal.js"></script>
   </body>
