@@ -236,7 +236,7 @@ const menuItems = {
       ],
       "Drinks": [
         {
-          "name": "Water",
+          "name": "Iced Water",
           "price": 1.99,
           "description": "Refreshing bottled water to quench your thirst.",
           "vegan": true
