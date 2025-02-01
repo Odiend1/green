@@ -310,8 +310,7 @@ h1{
 
 #about-title{
     color: #00bf40;
-    text-align: center;
-    margin-top: 100px;
+    font-size: 4.5em;
     font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-weight: bolder;
     text-shadow: 3px 3px 0 #01572e; 
@@ -321,7 +320,8 @@ h1{
     width: 350px;
     height: 60px;
     margin-top: 30px;
-    font-size: 30px;
+    font-size: 25px;
+    color:#01572e; 
     font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-size: bolder;
     background-color: #69bf5c;
