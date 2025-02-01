@@ -236,7 +236,7 @@ const menuItems = {
       ],
       "Drinks": [
         {
-          "name": "Bottled Water",
+          "name": "Water",
           "price": 1.99,
           "description": "Refreshing bottled water to quench your thirst.",
           "vegan": true
@@ -249,13 +249,13 @@ const menuItems = {
         },
         {
           "name": "Espresso",
-          "price": 2.99,
+          "price": 3.49,
           "description": "A strong and concentrated shot of freshly brewed coffee.",
           "vegan": true
         },
         {
           "name": "Affogato",
-          "price": 5.99,
+          "price": 5.49,
           "description": "A delightful combination of hot espresso poured over creamy vanilla ice cream.",
           "vegan": false
         },
@@ -290,13 +290,13 @@ const menuItems = {
           "price": 8.99,
           "description": "Classic coffee-flavored tiramisu.",
           "vegan": false
-        }
+        },
         {
           "name": "Semifreddo",
           "price": 8.99,
           "description": "A light Italian frozen masterpiece with flavors such as strawberry, sweet lemon, or chocolate covered hazelnut. Add your desired flavor below.",
           "vegan": false
-        }
+        },
       ],
       "Kids": [
         {
