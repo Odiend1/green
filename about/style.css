@@ -1,17 +1,18 @@
 
 html, body{
-    background: radial-gradient(rgb(225, 255, 225), white) no-repeat;
+    /*background: radial-gradient(rgb(225, 255, 225), white) no-repeat; */
+    background: border-radius(rgb(241, 246, 241), rgb(0, 0, 0)) no-repeat;
     background-position: center;
   background-attachment: fixed;
 }
 
 #about-title{
-    color: #000;
+    color: #00bf40;
     text-align: center;
     margin-top: 100px;
     font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-weight: bolder;
-    text-shadow: 3px 3px 0 #0d8631;
+    text-shadow: 3px 3px 0 #01572e; 
 }
 
 p{
@@ -39,7 +40,7 @@ p{
 
 .circle{
     border-radius: 50%;
-    outline: 1vw solid rgb(238, 255, 238);
+    outline: 1vw solid rgb(255, 255, 255);
     outline-offset: -0.8vw;
 }
 
