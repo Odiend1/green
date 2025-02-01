@@ -230,6 +230,104 @@ h1{
     display: inline-block;
     margin: 30px;
 }
+
+#menu-favorites{
+    text-align: center;
+}
+
+#menu-favorites-title{
+    font-size: 2em;
+    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: bolder;
+    color: #01572e; 
+}
+
+#menu-favorites-em{
+
+    color: #00bf40;
+    font-size: 2em;
+    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: bolder;
+    text-shadow: 3px 3px 0 #01572e; 
+}
+
+
+.menu-item{
+    display: inline-block;
+    width: 300px;
+    height: 350px;
+    border: 1px solid black;
+    text-align: left;
+    overflow-x: hidden;
+    border-radius: 20px;
+    background-color: rgb(239, 255, 222);
+    margin: 10px;
+    position: relative;
+}
+
+.menu-item-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.25em;
+    text-align: left;
+    padding: 20px 20px 0px;
+    margin: 0;
+}
+
+.menu-item-desc{
+    padding: 0px 20px 0px;
+    margin-top: 3px;
+    margin-bottom: 0;
+}
+
+.menu-item-img{
+    height: 60%;
+    min-width: 100%;
+    object-fit: cover;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.menu-item-add{
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    height: 50px;
+    width: 70px;
+    border-radius: 20px;
+    font-size: 0.9em;
+    font-weight: bold;
+    background-color: #aad374;
+}
+
+.menu-item-add:hover{
+    background-color: #a0c96f;
+}
+
+#about{
+    text-align: center;
+    background: radial-gradient(rgb(229, 255, 229), 5%, white);
+}
+
+#about-title{
+    color: #00bf40;
+    text-align: center;
+    margin-top: 100px;
+    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: bolder;
+    text-shadow: 3px 3px 0 #01572e; 
+}
+
+#learn-more-button{
+    width: 350px;
+    height: 60px;
+    margin-top: 30px;
+    font-size: 30px;
+    font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: bolder;
+    background-color: #69bf5c;
+    border-radius: 12px;
+}
+
 /*.footer{
     display: flex;
     flex-direction: column;

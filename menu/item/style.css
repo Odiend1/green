@@ -92,6 +92,12 @@ input[type=number] {
     background-color: #a0c96f;
 }
 
+@media only screen and (max-width: 500px) {
+    #add-to-cart {
+        width: 50%;
+    }
+}
+
 #order-bar{
     width: 97%;
     position: fixed;
