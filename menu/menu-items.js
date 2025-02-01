@@ -127,7 +127,7 @@ const menuItems = {
         },
         {
           name: "Falafel",
-          price: 7.99,
+          price: 6.99,
           description: "A savory filling made of chickpeas, herbs, onion, garlic, and earthy spices, fried until perfectly crispy on the outside.",
           vegan: true
         },
@@ -153,7 +153,7 @@ const menuItems = {
         },
         {
           name: "Fried Cassava Root",
-          price: 8.99,
+          price: 6.99,
           description: "Cassava root tossed in a signature blend of herbs, olive oil, and fresh lime juice, then fried in avocado oil.",
           vegan: true
         },
@@ -197,15 +197,15 @@ const menuItems = {
           description: "A mix of fresh fruits like berries, melons, apples, and bananas.",
           vegan: true
         },
-        {
+        /*{
           name: "French Fries",
           price: 4.99,
           description: "Crispy fried potatoes seasoned with salt.",
           vegan: true
-        },
+        },*/
         {
-          name: "Rice options",
-          price: 3.99,
+          name: "Rice Options",
+          price: 4.99,
           description: "Choice of cooked white or brown rice.",
           vegan: true
         },
@@ -216,17 +216,17 @@ const menuItems = {
           vegan: false
         },
         {
-          name: "Salads (House or Caesar)",
+          name: "House Salad",
           price: 7.99,
-          description: "Mixed greens with tomatoes, cucumbers, croutons, and dressing.",
+          description: "House mixed greens with tomatoes, cucumbers, parmesan cheese, croutons, ranch, and tofu.",
           vegan: true
         },
-        {
+        /*{
           name: "Beans",
           price: 4.99,
           description: "Fresh beans seasoned with salt, pepper, and garlic.",
           vegan: true
-        },
+        }, */
         {
           name: "Tater Tots",
           price: 5.99,
@@ -254,7 +254,7 @@ const menuItems = {
           "vegan": true
         },
         {
-          "name": "Affogato (Ice Cream + Coffee)",
+          "name": "Affogato",
           "price": 5.99,
           "description": "A delightful combination of hot espresso poured over creamy vanilla ice cream.",
           "vegan": false
@@ -286,9 +286,15 @@ const menuItems = {
           "vegan": true
         },
         {
-          "name": "Semifreddo or Tiramisu",
+          "name": "Tiramisu",
           "price": 8.99,
-          "description": "Choose between a light Italian frozen dessert or the classic coffee-flavored tiramisu.",
+          "description": "Classic coffee-flavored tiramisu.",
+          "vegan": false
+        }
+        {
+          "name": "Semifreddo",
+          "price": 8.99,
+          "description": "A light Italian frozen masterpiece with flavors such as strawberry, sweet lemon, or chocolate covered hazelnut. Add your desired flavor below.",
           "vegan": false
         }
       ],
@@ -299,16 +305,16 @@ const menuItems = {
           "description": "Classic grilled cheese sandwich with melted cheddar.",
           "vegan": false
         },
-        {
-          "name": "Quesadilla",
+        /*{
+          "name": "Cheese Quesadilla",
           "price": 5.99,
           "description": "Cheese-filled tortilla grilled until crispy.",
           "vegan": false
-        },
+        },*/
         {
-          "name": "Spaghetti and Tomato Sauce",
+          "name": "Spaghetti with Marinara",
           "price": 7.99,
-          "description": "Classic spaghetti served with house-made tomato sauce.",
+          "description": "Classic spaghetti served with house-made marinara sauce.",
           "vegan": true
         },
         {
@@ -326,7 +332,7 @@ const menuItems = {
         {
           "name": "Mini Cheese Pizza",
           "price": 7.49,
-          "description": "A kid-sized pizza topped with gooey melted cheese.",
+          "description": "A kid-sized pizza topped with melted cheese.",
           "vegan": false
         }
       ]
